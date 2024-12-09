@@ -10,11 +10,12 @@ export default function Navbar() {
           <Link to="/" className="font-semibold text-md text-yellow-800 hover:text-blue-500">Home</Link>
         </li>
         <li>
-          <Link to="/about" className="font-semibold text-md text-yellow-800 hover:text-blue-500">About</Link>
-        </li>
-        <li>
           <Link to="/places" className="font-semibold text-md text-yellow-800 hover:text-blue-500">Places</Link>
         </li>
+        <li>
+          <Link to="/about" className="font-semibold text-md text-yellow-800 hover:text-blue-500">About</Link>
+        </li>
+       
         <li>
           <Link to="/contact" className="font-semibold text-md text-yellow-800 hover:text-blue-500">Contact</Link>
         </li>
