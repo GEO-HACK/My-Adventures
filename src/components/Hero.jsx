@@ -36,7 +36,7 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % slides.length);
-    }, 5000);
+    }, 10000);
     return () => clearInterval(interval);
   }, [slides.length]);
 
@@ -50,7 +50,7 @@ const Hero = () => {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 50 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 2 }}
             className="text-center md:text-left"
           >
             <h1 className="text-5xl font-bold space-x-2 text-yellow-400 mb-2 ">A <span className="text-yellow-800">dventure</span></h1>
@@ -75,7 +75,7 @@ const Hero = () => {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 1.2 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 2 }}
             className="relative"
           >
             <img
