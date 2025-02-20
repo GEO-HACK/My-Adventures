@@ -7,17 +7,17 @@ export default function Navbar() {
       <img src="/images/logo.png" className="h-16 w-16" alt="Logo" />
       <ul className="flex space-x-6 text-lg">
         <li>
-          <Link to="/" className="font-semibold text-md text-yellow-800 hover:text-blue-500">Home</Link>
+          <Link to="/" className=" text-md text-yellow-800 hover:text-blue-500">Home</Link>
         </li>
         <li>
-          <Link to="/places" className="font-semibold text-md text-yellow-800 hover:text-blue-500">Places</Link>
+          <Link to="/places" className=" text-md text-yellow-800 hover:text-blue-500">Places</Link>
         </li>
         <li>
-          <Link to="/about" className="font-semibold text-md text-yellow-800 hover:text-blue-500">About</Link>
+          <Link to="/about" className=" text-md text-yellow-800 hover:text-blue-500">About</Link>
         </li>
        
         <li>
-          <Link to="/contact" className="font-semibold text-md text-yellow-800 hover:text-blue-500">Contact</Link>
+          <Link to="/contact" className=" text-md text-yellow-800 hover:text-blue-500">Contact</Link>
         </li>
       </ul>
     </nav>

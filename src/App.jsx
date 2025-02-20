@@ -1,22 +1,24 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Home from './pages/Home'
-import About from './pages/About'
-import Places from './pages/Places'
-import {BrowserRouter as Router,Route, Routes } from 'react-router-dom'
+import React from "react";
+import SinglePlace from "./pages/Places/SinglePlace";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Places from "./pages/Places/Places";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Layout from "./components/layout";
 
 const App = () => {
   return (
     <Router>
-      <Navbar/>
+      <Layout />
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/places' element={<Places/>}/>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/places" element={<Places />} >
+          <Route path="/places/:id" element={<SinglePlace />} />
+        </Route>
       </Routes>
     </Router>
-   
   );
-}
+};
 
-export default App
+export default App;

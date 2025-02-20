@@ -1,5 +1,6 @@
 export default [
     {
+        id: 1,
         title: "Mount Fuji",
         location: "Japan",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -8,7 +9,8 @@ export default [
         description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
         image: "/images/supra.avif"
     },
-    {
+    {   
+        id: 2,
         title: "Mount kenya",
         location: "Kenya",
         googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
@@ -18,6 +20,7 @@ export default [
         image: "/images/mkenya.webp"
     },
     {
+        id: 3,
         title: "Ngong Hills",
         location: "Kenya",
         googleMapsUrl: "https://goo.gl/maps/4Httk5JZ8AM2",
@@ -27,6 +30,8 @@ export default [
         image: "/images/ngong.webp"
     },
     {
+
+        id: 4,
         title: "Lake Naivasha",
         location: "Kenya",
         googleMapsUrl: "https://goo.gl/maps/Wz9z7fBddr92",
@@ -36,6 +41,7 @@ export default [
         image: "/images/lakenai.webp"
     },
     {
+        id: 5,
         title: "Mount Longonot",
         location: "Kenya",
         googleMapsUrl: "https://goo.gl/maps/LW6jj4zkjRz",
@@ -45,6 +51,7 @@ export default [
         image: "/images/mlongonot.webp"
     },
     {
+        id: 6,
         title: "Karura Forest",
         location: "Kenya",
         googleMapsUrl: "https://goo.gl/maps/QB2pK5oK6JP2",
