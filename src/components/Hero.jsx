@@ -53,7 +53,7 @@ const Hero = () => {
             transition={{ duration: 1 }}
             className="text-center md:text-left"
           >
-            <h1 className="text-5xl font-bold space-x-2 text-gray-700 mb-2 ">A <span className="text-yellow-800">dventure</span></h1>
+            <h1 className="text-5xl font-bold space-x-2 text-yellow-400 mb-2 ">A <span className="text-yellow-800">dventure</span></h1>
             <h1 className="text-3xl md:text-2xl font-bold font-sans text-yellow-600 ">
               {slides[currentIndex].title}
             </h1>
@@ -81,7 +81,7 @@ const Hero = () => {
             <img
               src={slides[currentIndex].image}
               alt={slides[currentIndex].title}
-              className="w-[500px] h-auto max-w-lg shadow-xl rounded-lg object-cover"
+              className="w-[700px] h-auto max-w-lg shadow-xl rounded-lg object-cover"
             />
             <motion.div
               initial={{ scale: 0 }}
